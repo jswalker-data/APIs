@@ -1,0 +1,14 @@
+{
+  "name": "generic-api",
+  "version": "1.0.0",
+  "description": "A basic implementation of a JavaScript API using Express.",
+  "main": "basic_api.js",
+  "scripts": {
+    "start": "node basic_api.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "author": "",
+  "license": "ISC"
+}

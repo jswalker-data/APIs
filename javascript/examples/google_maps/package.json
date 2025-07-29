@@ -1,0 +1,15 @@
+{
+  "name": "google-maps-api-example",
+  "version": "1.0.0",
+  "description": "A simple example of using the Google Maps API in JavaScript.",
+  "main": "maps_api.js",
+  "scripts": {
+    "start": "node maps_api.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "axios": "^0.21.1"
+  },
+  "author": "",
+  "license": "ISC"
+}
