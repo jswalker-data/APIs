@@ -2,9 +2,11 @@ from flask import Flask, jsonify
 
 app = Flask(__name__)
 
-@app.route('/')
+
+@app.route("/")
 def welcome():
     return jsonify(message="Welcome to the Basic API!")
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     app.run(debug=True)
